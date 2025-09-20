@@ -71,8 +71,7 @@ app.post('/analyze-product', async (req, res) => {
         res.status(500).json({ error: "Failed to get analysis from AI." });
     }
 });
-
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });

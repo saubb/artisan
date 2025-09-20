@@ -16,7 +16,7 @@ const materialData = JSON.parse(fs.readFileSync('raw_material_sources.json', 'ut
 
 // Initialize Gemini
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
 // --- DEFINE THE API ENDPOINT ---
 app.post('/analyze-product', async (req, res) => {

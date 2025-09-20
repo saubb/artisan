@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // This is the crucial part: calling your backend server
-            const response = await fetch('http://localhost:3000/analyze-product', {
+            const response = await fetch('https://artisan-58r6.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(productData),

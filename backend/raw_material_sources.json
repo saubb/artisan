@@ -1,0 +1,302 @@
+[
+  {
+    "material": "Terracotta Clay (Red)",
+    "location_state": "Maharashtra",
+    "cost_per_kg_inr": 25,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Sheesham Wood (Indian Rosewood)",
+    "location_state": "Rajasthan",
+    "cost_per_cft_inr": 3200,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Bamboo Poles (Dendrocalamus strictus)",
+    "location_state": "Assam",
+    "cost_per_pole_inr": 90,
+    "source_report": "National Bamboo Mission Data"
+  },
+  {
+    "material": "Brass Sheets (Scrap)",
+    "location_state": "Uttar Pradesh",
+    "cost_per_kg_inr": 450,
+    "source_report": "MSME Metalwork Report, Moradabad"
+  },
+  {
+    "material": "Cotton Yarn (40s Count)",
+    "location_state": "Tamil Nadu",
+    "cost_per_kg_inr": 280,
+    "source_report": "NABARD Handloom Finance Report"
+  },
+  {
+    "material": "Tussar Silk Cocoons",
+    "location_state": "Jharkhand",
+    "cost_per_kg_inr": 4000,
+    "source_report": "MSME Silk Cluster Report"
+  },
+  {
+    "material": "Natural Indigo Dye",
+    "location_state": "Telangana",
+    "cost_per_kg_inr": 2500,
+    "source_report": "NABARD Natural Dyes Project"
+  },
+  {
+    "material": "Soapstone (Ghia Pathar)",
+    "location_state": "Odisha",
+    "cost_per_kg_inr": 40,
+    "source_report": "MSME Stonecraft Survey"
+  },
+  {
+    "material": "Goat Leather (Rawhide)",
+    "location_state": "West Bengal",
+    "cost_per_sqft_inr": 120,
+    "source_report": "MSME Leather Goods Report, Shantiniketan"
+  },
+  {
+    "material": "Cane Reeds",
+    "location_state": "Tripura",
+    "cost_per_bundle_inr": 500,
+    "source_report": "National Bamboo Mission Data"
+  },
+  {
+    "material": "Mango Wood",
+    "location_state": "Uttar Pradesh",
+    "cost_per_cft_inr": 1200,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Copper Wire (for Enamelling)",
+    "location_state": "Rajasthan",
+    "cost_per_kg_inr": 850,
+    "source_report": "MSME Metalwork Report, Jaipur"
+  },
+  {
+    "material": "Eri Silk Yarn",
+    "location_state": "Meghalaya",
+    "cost_per_kg_inr": 7500,
+    "source_report": "MSME Silk Cluster Report"
+  },
+  {
+    "material": "Lac (Shellac)",
+    "location_state": "Chhattisgarh",
+    "cost_per_kg_inr": 600,
+    "source_report": "NABARD Forest Produce Report"
+  },
+  {
+    "material": "Marble Blocks (Makrana)",
+    "location_state": "Rajasthan",
+    "cost_per_ton_inr": 25000,
+    "source_report": "MSME Stonecraft Survey"
+  },
+  {
+    "material": "Jute Fibre",
+    "location_state": "West Bengal",
+    "cost_per_kg_inr": 70,
+    "source_report": "NABARD Jute Farming Report"
+  },
+  {
+    "material": "Bell Metal (Scrap Alloy)",
+    "location_state": "Chhattisgarh",
+    "cost_per_kg_inr": 900,
+    "source_report": "MSME Dhokra Art Report"
+  },
+  {
+    "material": "Kalamkari Dyes (Myrobalan)",
+    "location_state": "Andhra Pradesh",
+    "cost_per_kg_inr": 200,
+    "source_report": "NABARD Natural Dyes Project"
+  },
+  {
+    "material": "Glass Beads",
+    "location_state": "Uttar Pradesh",
+    "cost_per_kg_inr": 350,
+    "source_report": "MSME Glasswork Report, Firozabad"
+  },
+  {
+    "material": "Sandalwood (Govt. Auction)",
+    "location_state": "Karnataka",
+    "cost_per_kg_inr": 12000,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Moonj Grass",
+    "location_state": "Uttar Pradesh",
+    "cost_per_bundle_inr": 150,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Teak Wood (Reclaimed)",
+    "location_state": "Gujarat",
+    "cost_per_cft_inr": 4500,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Pashmina Wool (Raw)",
+    "location_state": "Ladakh",
+    "cost_per_kg_inr": 6000,
+    "source_report": "NABARD Animal Husbandry Report"
+  },
+  {
+    "material": "Agate Stone (Rough)",
+    "location_state": "Gujarat",
+    "cost_per_kg_inr": 180,
+    "source_report": "MSME Stonecraft Survey, Khambhat"
+  },
+  {
+    "material": "Cotton Rags (for Paper)",
+    "location_state": "Rajasthan",
+    "cost_per_kg_inr": 30,
+    "source_report": "MSME Handmade Paper Report"
+  },
+  {
+    "material": "Mulberry Silk Yarn",
+    "location_state": "Karnataka",
+    "cost_per_kg_inr": 5500,
+    "source_report": "MSME Silk Cluster Report, Ramanagara"
+  },
+  {
+    "material": "Fuller's Earth (Multani Mitti)",
+    "location_state": "Rajasthan",
+    "cost_per_kg_inr": 50,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Sikki Grass",
+    "location_state": "Bihar",
+    "cost_per_bundle_inr": 200,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Palm Leaf (Dried)",
+    "location_state": "Odisha",
+    "cost_per_100_leaves_inr": 300,
+    "source_report": "MSME Pattachitra Cluster Report"
+  },
+  {
+    "material": "Madder Root (for Dye)",
+    "location_state": "Gujarat",
+    "cost_per_kg_inr": 400,
+    "source_report": "NABARD Natural Dyes Project"
+  },
+  {
+    "material": "Silver Wire (92.5%)",
+    "location_state": "Rajasthan",
+    "cost_per_10gm_inr": 850,
+    "source_report": "MSME Jewellery Report, Jaipur"
+  },
+  {
+    "material": "Sponge Iron (for Wrought Iron Craft)",
+    "location_state": "Chhattisgarh",
+    "cost_per_kg_inr": 45,
+    "source_report": "MSME Metalwork Report"
+  },
+  {
+    "material": "Camel Leather (Rawhide)",
+    "location_state": "Rajasthan",
+    "cost_per_sqft_inr": 180,
+    "source_report": "MSME Leather Goods Report, Bikaner"
+  },
+  {
+    "material": "Water Hyacinth (Dried Stems)",
+    "location_state": "Assam",
+    "cost_per_kg_inr": 100,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Rosewood (for Inlay)",
+    "location_state": "Karnataka",
+    "cost_per_kg_inr": 800,
+    "source_report": "MSME Woodcraft Cluster Report, Mysore"
+  },
+  {
+    "material": "Ceramic Glaze (Lead-Free)",
+    "location_state": "Uttar Pradesh",
+    "cost_per_kg_inr": 500,
+    "source_report": "MSME Pottery Report, Khurja"
+  },
+  {
+    "material": "Banana Fiber",
+    "location_state": "Kerala",
+    "cost_per_kg_inr": 250,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Muga Silk Yarn",
+    "location_state": "Assam",
+    "cost_per_kg_inr": 20000,
+    "source_report": "MSME Silk Cluster Report"
+  },
+  {
+    "material": "Hemp Fiber",
+    "location_state": "Uttarakhand",
+    "cost_per_kg_inr": 300,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Sandstone Blocks",
+    "location_state": "Rajasthan",
+    "cost_per_ton_inr": 8000,
+    "source_report": "MSME Stonecraft Survey"
+  },
+  {
+    "material": "Acacia Wood (Kikar)",
+    "location_state": "Punjab",
+    "cost_per_cft_inr": 1500,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Seashells (for Craft)",
+    "location_state": "Goa",
+    "cost_per_kg_inr": 200,
+    "source_report": "MSME Coastal Crafts Report"
+  },
+  {
+    "material": "Coconut Shells (Craft Grade)",
+    "location_state": "Kerala",
+    "cost_per_100_shells_inr": 400,
+    "source_report": "NABARD Coir Board Data"
+  },
+  {
+    "material": "Merino Wool (Indian)",
+    "location_state": "Himachal Pradesh",
+    "cost_per_kg_inr": 1200,
+    "source_report": "NABARD Animal Husbandry Report"
+  },
+  {
+    "material": "Sabai Grass",
+    "location_state": "Odisha",
+    "cost_per_bundle_inr": 180,
+    "source_report": "NABARD Rural Enterprise Survey"
+  },
+  {
+    "material": "Bidriware Alloy (Zinc & Copper)",
+    "location_state": "Karnataka",
+    "cost_per_kg_inr": 650,
+    "source_report": "MSME Bidriware Report, Bidar"
+  },
+  {
+    "material": "Papier-mâché Pulp",
+    "location_state": "Jammu & Kashmir",
+    "cost_per_kg_inr": 80,
+    "source_report": "MSME Papier-mâché Cluster Report"
+  },
+  {
+    "material": "Pine Wood",
+    "location_state": "Himachal Pradesh",
+    "cost_per_cft_inr": 1000,
+    "source_report": "MSME Woodcraft Cluster Report"
+  },
+  {
+    "material": "Pomegranate Rind (for Dye)",
+    "location_state": "Maharashtra",
+    "cost_per_kg_inr": 150,
+    "source_report": "NABARD Natural Dyes Project"
+  },
+  {
+    "material": "Beeswax (for Dhokra Casting)",
+    "location_state": "Jharkhand",
+    "cost_per_kg_inr": 700,
+    "source_report": "NABARD Forest Produce Report"
+  }
+]

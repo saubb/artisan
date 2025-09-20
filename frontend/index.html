@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisan AI Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div id="login-choice-page" class="page active">
+        <div class="login-container">
+            <h1>Welcome to the Artisan Marketplace</h1>
+            <p>Connecting creativity with community through the power of AI.</p>
+            <div class="choice-buttons">
+                <button id="login-as-customer-btn">Shop as a Customer</button>
+                <button id="login-as-artisan-btn">Login as an Artisan</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="customer-view-page" class="page">
+        <header>
+            <nav>
+                <h1>Artisan Treasures</h1>
+                <div class="nav-right">
+                    <span>🛒 Cart (<span id="cart-count">0</span>)</span>
+                    <button id="customer-logout-btn">Logout</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2>Our Products</h2>
+            <div id="product-grid" class="product-grid">
+                </div>
+        </main>
+    </div>
+
+    <div id="artisan-view-page" class="page">
+        <header>
+            <nav>
+                <h1>Artisan AI Analyst</h1>
+                <button id="artisan-logout-btn">Logout</button>
+            </nav>
+        </header>
+        <main class="artisan-dashboard">
+            <div class="dashboard-section">
+                <h3>Get Your Instant Business Analysis 🚀</h3>
+                <p>Enter your product details and let our AI provide a complete growth strategy.</p>
+                <form id="product-analysis-form">
+                    <input type="text" id="productName" placeholder="Product Name (e.g., Terracotta Pot)" required>
+                    <input type="text" id="productCategory" placeholder="Product Category (e.g., Terracotta)" required>
+                    <input type="number" id="rawMaterialCost" placeholder="Raw Material Cost per item (₹)" required>
+                    <input type="number" id="sellingPrice" placeholder="Your Selling Price (₹)" required>
+                    <button type="submit">✨ Analyze My Product</button>
+                </form>
+            </div>
+
+            <div class="dashboard-section" id="ai-results-section" style="display: none;">
+                <h3>Your AI-Powered Growth Plan:</h3>
+                <div id="ai-results-content">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

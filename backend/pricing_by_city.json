@@ -1,0 +1,352 @@
+[
+  {
+    "product_category": "Pottery",
+    "product_example": "Jaipur Blue Pottery Vase (8-inch)",
+    "market": "Jaipur",
+    "avg_selling_price_inr": 1200,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Jaipur Blue Pottery Vase (8-inch)",
+    "market": "Mumbai",
+    "avg_selling_price_inr": 2200,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Jaipur Blue Pottery Vase (8-inch)",
+    "market": "Export (USA)",
+    "avg_selling_price_inr": 4500,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Sheesham Wood Spice Box",
+    "market": "Jodhpur",
+    "avg_selling_price_inr": 800,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Sheesham Wood Spice Box",
+    "market": "Bengaluru",
+    "avg_selling_price_inr": 1500,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Sheesham Wood Spice Box",
+    "market": "Export (UK)",
+    "avg_selling_price_inr": 3000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Kalamkari Cotton Saree",
+    "market": "Hyderabad",
+    "avg_selling_price_inr": 3500,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Kalamkari Cotton Saree",
+    "market": "Delhi",
+    "avg_selling_price_inr": 5500,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Pashmina Shawl (Hand-spun)",
+    "market": "Srinagar",
+    "avg_selling_price_inr": 15000,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Pashmina Shawl (Hand-spun)",
+    "market": "Export (Europe)",
+    "avg_selling_price_inr": 40000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Dhokra Art Elephant Figurine",
+    "market": "Raipur",
+    "avg_selling_price_inr": 900,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Dhokra Art Elephant Figurine",
+    "market": "Kolkata",
+    "avg_selling_price_inr": 1800,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Moradabad Brass Lamp",
+    "market": "Moradabad",
+    "avg_selling_price_inr": 2500,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Moradabad Brass Lamp",
+    "market": "Export (Middle East)",
+    "avg_selling_price_inr": 7000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Cane & Bamboo",
+    "product_example": "Bamboo Laundry Basket",
+    "market": "Guwahati",
+    "avg_selling_price_inr": 750,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Cane & Bamboo",
+    "product_example": "Bamboo Laundry Basket",
+    "market": "Pune",
+    "avg_selling_price_inr": 1600,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Leather Craft",
+    "product_example": "Shantiniketan Leather Bag",
+    "market": "Kolkata",
+    "avg_selling_price_inr": 1800,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Leather Craft",
+    "product_example": "Shantiniketan Leather Bag",
+    "market": "Mumbai",
+    "avg_selling_price_inr": 2800,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Stonework",
+    "product_example": "Marble Inlay Coasters (Set of 4)",
+    "market": "Agra",
+    "avg_selling_price_inr": 1500,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Stonework",
+    "product_example": "Marble Inlay Coasters (Set of 4)",
+    "market": "Export (USA)",
+    "avg_selling_price_inr": 5000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Bandhani Silk Dupatta",
+    "market": "Ahmedabad",
+    "avg_selling_price_inr": 2000,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Bandhani Silk Dupatta",
+    "market": "Chennai",
+    "avg_selling_price_inr": 3200,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Jewellery",
+    "product_example": "Lac Bangle Set",
+    "market": "Jaipur",
+    "avg_selling_price_inr": 500,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Jewellery",
+    "product_example": "Lac Bangle Set",
+    "market": "Delhi",
+    "avg_selling_price_inr": 950,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Fibre Craft",
+    "product_example": "Jute Floor Mat (4x6 ft)",
+    "market": "Kolkata",
+    "avg_selling_price_inr": 1200,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Fibre Craft",
+    "product_example": "Jute Floor Mat (4x6 ft)",
+    "market": "Bengaluru",
+    "avg_selling_price_inr": 2100,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Painting",
+    "product_example": "Madhubani Painting (A4 Size)",
+    "market": "Patna",
+    "avg_selling_price_inr": 1000,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Painting",
+    "product_example": "Madhubani Painting (A4 Size)",
+    "market": "Export (France)",
+    "avg_selling_price_inr": 4000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Khurja Ceramic Mugs (Set of 2)",
+    "market": "Delhi",
+    "avg_selling_price_inr": 600,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Khurja Ceramic Mugs (Set of 2)",
+    "market": "Mumbai",
+    "avg_selling_price_inr": 900,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Sandalwood Carved Pen Stand",
+    "market": "Bengaluru",
+    "avg_selling_price_inr": 2500,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Sandalwood Carved Pen Stand",
+    "market": "Export (Japan)",
+    "avg_selling_price_inr": 7500,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Chikankari Kurta (Cotton)",
+    "market": "Lucknow",
+    "avg_selling_price_inr": 1800,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Chikankari Kurta (Cotton)",
+    "market": "Pune",
+    "avg_selling_price_inr": 2800,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Bidriware Cufflinks",
+    "market": "Hyderabad",
+    "avg_selling_price_inr": 3000,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Metalwork",
+    "product_example": "Bidriware Cufflinks",
+    "market": "Export (USA)",
+    "avg_selling_price_inr": 8000,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Fibre Craft",
+    "product_example": "Moonj Grass Wall Decor Plate",
+    "market": "Prayagraj",
+    "avg_selling_price_inr": 700,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Fibre Craft",
+    "product_example": "Moonj Grass Wall Decor Plate",
+    "market": "Delhi",
+    "avg_selling_price_inr": 1500,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Paper Craft",
+    "product_example": "Handmade Paper Diary",
+    "market": "Jaipur",
+    "avg_selling_price_inr": 400,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Paper Craft",
+    "product_example": "Handmade Paper Diary",
+    "market": "Export (Germany)",
+    "avg_selling_price_inr": 1200,
+    "source_type": "EPCH Export Data"
+  },
+  {
+    "product_category": "Painting",
+    "product_example": "Pattachitra on Palm Leaf (Small)",
+    "market": "Bhubaneswar",
+    "avg_selling_price_inr": 1200,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Painting",
+    "product_example": "Pattachitra on Palm Leaf (Small)",
+    "market": "Kolkata",
+    "avg_selling_price_inr": 2500,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Terracotta Wind Chime",
+    "market": "Nagpur",
+    "avg_selling_price_inr": 350,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Pottery",
+    "product_example": "Terracotta Wind Chime",
+    "market": "Pune",
+    "avg_selling_price_inr": 650,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Mango Wood Serving Tray",
+    "market": "Saharanpur",
+    "avg_selling_price_inr": 900,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Woodcraft",
+    "product_example": "Mango Wood Serving Tray",
+    "market": "Bengaluru",
+    "avg_selling_price_inr": 1700,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Ajrakh Block Print Stole",
+    "market": "Bhuj",
+    "avg_selling_price_inr": 1000,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Textiles",
+    "product_example": "Ajrakh Block Print Stole",
+    "market": "Mumbai",
+    "avg_selling_price_inr": 2200,
+    "source_type": "eCommerce Survey"
+  },
+  {
+    "product_category": "Paper Craft",
+    "product_example": "Papier-mâché Box",
+    "market": "Srinagar",
+    "avg_selling_price_inr": 800,
+    "source_type": "Local Market Survey"
+  },
+  {
+    "product_category": "Paper Craft",
+    "product_example": "Papier-mâché Box",
+    "market": "Export (Canada)",
+    "avg_selling_price_inr": 2500,
+    "source_type": "EPCH Export Data"
+  }
+]

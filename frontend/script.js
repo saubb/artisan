@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- MOCK DATA (For Customer View) ---
     const products = [
-        { name: 'Handcrafted Wooden Bowl', price: 2800, info: 'A beautiful bowl made from sustainable cherry wood.', image: 'https://images.unsplash.com/photo-1570355152286-881c5a27e7f3?w=500' },
-        { name: 'Woven Wall Hanging', price: 4500, info: 'Intricate macrame design to elevate any room.', image: 'https://images.unsplash.com/photo-1618221319998-95a2a2a07c3a?w=500' },
-        { name: 'Ceramic Coffee Mug', price: 1500, info: 'Hand-thrown and glazed, perfect for your morning coffee.', image: 'https://images.unsplash.com/photo-1594312213898-3a9a7a6a4d7d?w=500' },
-        { name: 'Leather Journal', price: 3200, info: 'Genuine leather-bound journal for your thoughts.', image: 'https://images.unsplash.com/photo-1516424322328-09cb33549b4b?w=500' }
+        { name: 'Handcrafted Wooden Bowl', price: 2800, info: 'A beautiful bowl made from sustainable cherry wood.', image: 'woodbowl.png' },
+        { name: 'Woven Wall Hanging', price: 4500, info: 'Intricate macrame design to elevate any room.', image: 'wallhanging.png' },
+        { name: 'Ceramic Coffee Mug', price: 1500, info: 'Hand-thrown and glazed, perfect for your morning coffee.', image: 'ceeramicmug.png' },
+        { name: 'Leather Journal', price: 3200, info: 'Genuine leather-bound journal for your thoughts.', image: 'journal.png' }
     ];
 
     // --- Page Elements ---

@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Leather Journal",
+    "price": 3200,
+    "info": "Genuine leather-bound journal for your thoughts.",
+    "image": "./frontend/journal.png"
+  }
+]

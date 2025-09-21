@@ -1,19 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- MOCK DATA (For Customer View) ---
-    const products = [
-        { name: 'Handcrafted Wooden Bowl', price: 2800, info: 'A beautiful bowl made from sustainable cherry wood.', image: 'woodbowl.png' },
-        { name: 'Woven Wall Hanging', price: 4500, info: 'Intricate macrame design to elevate any room.', image: 'wallhanging.png' },
-        { name: 'Ceramic Coffee Mug', price: 1500, info: 'Hand-thrown and glazed, perfect for your morning coffee.', image: 'ceeramicmug.png' },
-        { name: 'Leather Journal', price: 3200, info: 'Genuine leather-bound journal for your thoughts.', image: 'journal.png' }
-    ];
-
     // --- Page Elements ---
     const pages = document.querySelectorAll('.page');
     const loginAsCustomerBtn = document.getElementById('login-as-customer-btn');
     const loginAsArtisanBtn = document.getElementById('login-as-artisan-btn');
     const customerLogoutBtn = document.getElementById('customer-logout-btn');
     const artisanLogoutBtn = document.getElementById('artisan-logout-btn');
+
+// ADD THESE TWO LINES
+const customerBackBtn = document.getElementById('customer-back-btn');
+const artisanBackBtn = document.getElementById('artisan-back-btn');
 
     // --- Page Navigation Logic ---
     function showPage(pageId) {
@@ -23,25 +19,55 @@ document.addEventListener('DOMContentLoaded', () => {
                 page.classList.add('active');
             }
         });
+        // If we are showing the customer page, fetch the latest products
+        if (pageId === 'customer-view-page') {
+            fetchProducts();
+        }
     }
 
     loginAsCustomerBtn.addEventListener('click', () => showPage('customer-view-page'));
     loginAsArtisanBtn.addEventListener('click', () => showPage('artisan-view-page'));
     customerLogoutBtn.addEventListener('click', () => showPage('login-choice-page'));
     artisanLogoutBtn.addEventListener('click', () => showPage('login-choice-page'));
+    // --- Page Navigation Logic ---
+// ... (other listeners)
+
+// ADD THESE TWO LINES
+customerBackBtn.addEventListener('click', () => showPage('login-choice-page'));
+artisanBackBtn.addEventListener('click', () => showPage('login-choice-page'));
 
     // --- Customer View Logic ---
     const productGrid = document.getElementById('product-grid');
     const cartCountSpan = document.getElementById('cart-count');
     let cartCount = 0;
 
-    function renderProducts() {
-        productGrid.innerHTML = ''; 
+    // New function to fetch products from the backend
+    async function fetchProducts() {
+        try {
+            // NOTE: Replace with your live Render URL when deployed
+            const response = await fetch('http://localhost:3000/get-products');
+            const products = await response.json();
+            renderProducts(products);
+        } catch (error) {
+            console.error('Failed to fetch products:', error);
+            productGrid.innerHTML = '<p>Could not load products. Please try again later.</p>';
+        }
+    }
+
+    function renderProducts(products) {
+        productGrid.innerHTML = '';
+        if (!products || products.length === 0) {
+            productGrid.innerHTML = '<p>No products available right now.</p>';
+            return;
+        }
+        
         products.forEach(product => {
+            // Construct the full image URL
+            const imageUrl = `http://localhost:3000${product.image}`;
             const productCard = document.createElement('div');
             productCard.className = 'product-card';
             productCard.innerHTML = `
-                <img src="${product.image}" alt="${product.name}">
+                <img src="${imageUrl}" alt="${product.name}">
                 <h3>${product.name}</h3>
                 <p>${product.info}</p>
                 <p class="price">₹${product.price.toLocaleString('en-IN')}</p>
@@ -58,48 +84,37 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- Artisan AI Analyst Logic ---
-    const productAnalysisForm = document.getElementById('product-analysis-form');
-    const aiResultsSection = document.getElementById('ai-results-section');
-    const aiResultsContent = document.getElementById('ai-results-content');
+    // --- Artisan AI Product Upload Logic ---
+    const productUploadForm = document.getElementById('product-upload-form');
+    const uploadStatus = document.getElementById('upload-status');
 
-    productAnalysisForm.addEventListener('submit', async (e) => {
+    productUploadForm.addEventListener('submit', async (e) => {
         e.preventDefault();
+        uploadStatus.textContent = 'Uploading and analyzing with AI... Please wait.';
 
-        const productData = {
-            productName: document.getElementById('productName').value,
-            productCategory: document.getElementById('productCategory').value,
-            rawMaterialCost: document.getElementById('rawMaterialCost').value,
-            sellingPrice: document.getElementById('sellingPrice').value
-        };
-
-        aiResultsSection.style.display = 'block';
-        aiResultsContent.innerHTML = '<div class="loader"></div>';
-
+        // Use FormData to send the file and price
+        const formData = new FormData(productUploadForm);
+        
         try {
-            // This is the crucial part: calling your backend server
-            const response = await fetch('https://artisan-58r6.onrender.com/analyze-product', {
+            // NOTE: Replace with your live Render URL when deployed
+            const response = await fetch('http://localhost:3000/upload-product', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(productData),
+                body: formData, // No 'Content-Type' header needed, browser sets it
             });
 
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
+            if (response.ok) {
+                const newProduct = await response.json();
+                uploadStatus.innerHTML = `<p style="color: green;">Success! Product "${newProduct.name}" added.</p>`;
+                productUploadForm.reset();
+            } else {
+                throw new Error('Upload failed.');
             }
-
-            const data = await response.json();
-            
-            // Use the 'marked' library to convert Markdown text from the AI to HTML
-            aiResultsContent.innerHTML = marked.parse(data.analysis);
-
         } catch (error) {
-            console.error('Error fetching AI analysis:', error);
-            aiResultsContent.innerHTML = `<p style="color: var(--error-color);">Sorry, an error occurred while analyzing. Please check if the backend server is running and try again.</p>`;
+            console.error('Error uploading product:', error);
+            uploadStatus.innerHTML = `<p style="color: red;">Error: Could not add product.</p>`;
         }
     });
 
     // --- Initial Load ---
-    renderProducts();
     showPage('login-choice-page');
 });

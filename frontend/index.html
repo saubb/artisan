@@ -21,16 +21,15 @@
     </div>
 
     <div id="customer-view-page" class="page">
-       <header>
-    <nav>
-        <button id="customer-back-btn" class="back-btn">← Back</button>
-
-        <h1>Artisan Treasures</h1>
-        <div class="nav-right">
-            <span>🛒 Cart (<span id="cart-count">0</span>)</span>
-        </div>
-    </nav>
-</header>
+        <header>
+            <nav>
+                <h1>Artisan Treasures</h1>
+                <div class="nav-right">
+                    <span>🛒 Cart (<span id="cart-count">0</span>)</span>
+                    <button id="customer-logout-btn">Logout</button>
+                </div>
+            </nav>
+        </header>
         <main>
             <h2>Our Products</h2>
             <div id="product-grid" class="product-grid">
@@ -38,31 +37,34 @@
         </main>
     </div>
 
-   <div id="artisan-view-page" class="page">
-   <header>
-    <nav>
-        <button id="artisan-back-btn" class="back-btn">← Back</button>
+    <div id="artisan-view-page" class="page">
+        <header>
+            <nav>
+                <h1>Artisan AI Analyst</h1>
+                <button id="artisan-logout-btn">Logout</button>
+            </nav>
+        </header>
+        <main class="artisan-dashboard">
+            <div class="dashboard-section">
+                <h3>Get Your Instant Business Analysis 🚀</h3>
+                <p>Enter your product details and let our AI provide a complete growth strategy.</p>
+                <form id="product-analysis-form">
+                    <input type="text" id="productName" placeholder="Product Name (e.g., Terracotta Pot)" required>
+                    <input type="text" id="productCategory" placeholder="Product Category (e.g., Terracotta)" required>
+                    <input type="number" id="rawMaterialCost" placeholder="Raw Material Cost per item (₹)" required>
+                    <input type="number" id="sellingPrice" placeholder="Your Selling Price (₹)" required>
+                    <button type="submit">✨ Analyze My Product</button>
+                </form>
+            </div>
 
-        <h1>Artisan Dashboard</h1>
-    </nav>
-</header>
-    <main class="artisan-dashboard">
-        <div class="dashboard-section">
-            <h3>Add a New Product</h3>
-            <p>Upload an image and a price. Our AI will automatically generate the details!</p>
-            <form id="product-upload-form">
-                <label for="productImage">Product Image:</label>
-                <input type="file" id="productImage" name="productImage" accept="image/*" required>
-                
-                <label for="productPrice">Selling Price (₹):</label>
-                <input type="number" id="productPrice" name="price" placeholder="e.g., 2500" required>
-                
-                <button type="submit">Add Product with AI</button>
-            </form>
-            <div id="upload-status"></div>
-        </div>
-    </main>
-</div>
+            <div class="dashboard-section" id="ai-results-section" style="display: none;">
+                <h3>Your AI-Powered Growth Plan:</h3>
+                <div id="ai-results-content">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </main>
+    </div>
 
     <script src="script.js"></script>
 </body>
